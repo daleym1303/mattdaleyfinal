@@ -15,11 +15,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 import pydeck as pdk
+import os
 
 # read in data
 def read_data():
     # converts csv to data frame in pandas
-    path = "C:/Users/daley/OneDrive - Bentley University/CS230/Final_Project/nuclear_explosions.csv"
+    path = os.getenv("DATA_FILE_PATH", "C:/Users/daley/OneDrive - Bentley University/CS230/Final_Project/nuclear_explosions.csv")
     return pd.read_csv(path)
 
 # [PY5] define a dictionary with the country's name and color
