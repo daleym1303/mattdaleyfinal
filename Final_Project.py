@@ -43,7 +43,7 @@ def welcome():
     Explore various visualizations to understand the frequency, location, and scale of nuclear tests and deployments by different countries.
     """)
     # [ST4] use of image
-    st.image("C:/Users/daley/OneDrive - Bentley University/CS230/Final Project/nuke_photo.jpg", use_column_width=True)
+    st.image("/mount/src/mattdaleyfinal/nuke_photo.jpg", use_column_width=True)
 
     return
 
