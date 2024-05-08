@@ -19,7 +19,7 @@ import pydeck as pdk
 # read in data
 def read_data():
     # converts csv to data frame in pandas
-    path = "data/nuclear_explosions.csv"
+    path = "/mount/src/mattdaleyfinal/nuclear_explosions.csv"
     return pd.read_csv(path)
 
 # [PY5] define a dictionary with the country's name and color
